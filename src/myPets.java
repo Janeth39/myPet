@@ -15,6 +15,51 @@ public class myPets
         this.name = name;
     }
 
+    //Getters
+
+    public double getAmtSleep()
+    {
+        return amtSleep;
+    }
+
+    public String getFoodType()
+    {
+        return foodType;
+    }
+
+    public String getName()
+    {
+        return name;
+    }
+
+    public boolean getIsFriendly()
+    {
+        return isFriendly;
+    }
+
+    //Setter
+
+
+    public void setAmtSleep(double amtSleep)
+    {
+        this.amtSleep = amtSleep;
+    }
+
+    public void setFoodType(String foodType)
+    {
+        this.foodType = foodType;
+    }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    public void setIsFriendly(boolean isFriendly)
+    {
+        this.isFriendly = isFriendly;
+    }
+
     //3 toString
     public String toString ()
     {
