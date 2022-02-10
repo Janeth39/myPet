@@ -14,7 +14,7 @@ public class Frog extends myPets
     public String toString()
     {
         String output = super.toString() +
-                        "\n Is Poisonous: " + isPoisonous;
+                        "\nIs Poisonous: " + isPoisonous;
         return output;
     }
 }

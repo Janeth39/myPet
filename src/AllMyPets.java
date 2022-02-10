@@ -7,5 +7,9 @@ public class AllMyPets
 
         Frog shrimp = new Frog(false, true, "worms", 6, "Shrimp");
         System.out.println(shrimp.toString());
+        Hamster jgerome = new Hamster(false, true, true,
+                                            "rats", 0.5, "Jgerome");
+        System.out.println(jgerome.toString());
+
     }
 }
