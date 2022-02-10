@@ -15,8 +15,8 @@ public class myPets
         this.name = name;
     }
 
-    //Getters
 
+    //Getters
     public double getAmtSleep()
     {
         return amtSleep;
@@ -37,9 +37,8 @@ public class myPets
         return isFriendly;
     }
 
+
     //Setter
-
-
     public void setAmtSleep(double amtSleep)
     {
         this.amtSleep = amtSleep;
@@ -58,6 +57,13 @@ public class myPets
     public void setIsFriendly(boolean isFriendly)
     {
         this.isFriendly = isFriendly;
+    }
+
+
+    //Brain Methods
+    public int sleepInSeconds()
+    {
+        return (int)(amtSleep * 3600);
     }
 
     //3 toString
